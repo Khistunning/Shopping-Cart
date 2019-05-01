@@ -23,4 +23,9 @@ var length = lista.length;
  $(".numb").html(length);
 });
 var totalnum=0;
+ prices.forEach(function(total){
+    totalnum=totalnum + parseInt(total);
+    console.log(total,totalnum);
+});
+var img=$("").val();
 
